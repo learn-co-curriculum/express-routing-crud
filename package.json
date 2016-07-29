@@ -1,0 +1,36 @@
+{
+  "name": "express-routing-crud",
+  "version": "0.1.0",
+  "description": "Learn about CRUD via Express",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "debug": "node-debug --hidden node_modules _mocha --watch",
+    "debug-ide": "./bin/debug-ide",
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/express-routing-crud.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "The Flatiron School",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/express-routing-crud/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/express-routing-crud#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^2.5.3",
+    "mocha-multi": "^0.9.0",
+    "node-inspector": "^0.12.8"
+  }
+}
